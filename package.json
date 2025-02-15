@@ -4,13 +4,16 @@
   "description": "Bicomaru shogunai",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch": " postcss src/tailwind.css -o public/styles.css"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@tailwindcss/postcss": "^4.0.6",
+    "@tailwindcss/postcss": "^4.0.6"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
     "postcss": "^8.5.2",
     "tailwindcss": "^4.0.6"
   }
